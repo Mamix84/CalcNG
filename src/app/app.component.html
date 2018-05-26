@@ -1,0 +1,37 @@
+<div class="ui-g">
+	<div class="ui-g-12"><calc-display [value]="operations"></calc-display></div>
+</div>
+<div class="ui-g">
+	<div class="ui-g-12"><calc-display [value]="display"></calc-display></div>
+</div>
+<div class="ui-g">
+	<div class="ui-g-3"><calc-action [label]="'C'" (clickActionEvent)="eraseLast()"></calc-action></div>
+	<div class="ui-g-3"><calc-action [label]="'CE'" (clickActionEvent)="erase()"></calc-action></div>
+	<div class="ui-g-3"><calc-numeric [label]="','" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-action [label]="'='" (clickActionEvent)="equals()"></calc-action></div>
+</div>
+<div class="ui-g">
+	<div class="ui-g-3"><calc-numeric [label]="'1'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'2'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'3'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-action [label]="'+'" (clickActionEvent)="add()"></calc-action></div>
+</div>
+<div class="ui-g">
+	<div class="ui-g-3"><calc-numeric [label]="'4'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'5'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'6'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-action [label]="'-'" (clickActionEvent)="subtract()"></calc-action></div>
+</div>
+<div class="ui-g">
+	<div class="ui-g-3"><calc-numeric [label]="'7'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'8'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'9'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-action [label]="'\&#215;'" (clickActionEvent)="multiply()"></calc-action></div>
+</div>
+<div class="ui-g">
+	<div class="ui-g-3"><calc-numeric [label]="'('" (clickNumberEvent)="addParenthesis($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="'0'" (clickNumberEvent)="addNumber($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-numeric [label]="')'" (clickNumberEvent)="addParenthesis($event)"></calc-numeric></div>
+	<div class="ui-g-3"><calc-action [label]="'\&#247;'" (clickActionEvent)="divide()"></calc-action></div>
+</div>
+
