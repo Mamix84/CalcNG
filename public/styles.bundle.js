@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n.ui-g-1, .ui-g-2, .ui-g-3, .ui-g-4, .ui-g-5, .ui-g-6, .ui-g-7, .ui-g-8, .ui-g-9, .ui-g-10, .ui-g-11, .ui-g-12 {\n    float: left;\n    box-sizing: border-box;\n    padding: 0em;\n}\n\n.ui-button{\n\twidth: 100%;\n\theight: 6.0em;\n}\n\n.ui-inputtext{\n\twidth: 100%;\n\theight: 7.0em;\n\ttext-align: right;\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n.ui-g-1, .ui-g-2, .ui-g-3, .ui-g-4, .ui-g-5, .ui-g-6, .ui-g-7, .ui-g-8, .ui-g-9, .ui-g-10, .ui-g-11, .ui-g-12 {\n    float: left;\n    box-sizing: border-box;\n    padding: 0em;\n}\n\n.ui-button{\n    width: 95%;\n\theight: 90%;\n\tpadding: 5%;\n\tmargin-top: 1%;\n\tmargin-bottom: 1%;\n\tbackground-color: ivory;\n\tborder-radius: 1.5em;\n\tbox-shadow: 1px 2px 4px rgba(0, 0, 0, .5);\n\tmargin-left: 2%\n}\n\n.ui-button span{\n\tfont-family: 'Courier New';\n\tfont-size: large;\n\tfont-style: inherit;\n}\n\n.ui-inputtext{\n    width: 100%;\n\theight: 90%;\n\ttext-align: right;\n\tbackground-color: rgb(223, 219, 165);\n\tborder-radius: 1.5em;\n\tbox-shadow: 1px 2px 4px rgba(0, 0, 0, .5);\n\tfont-family: 'Courier New';\n\tfont-size: xx-large;\n}\n\n.main{\n\tbackground-color: silver;\n}", ""]);
 
 // exports
 
